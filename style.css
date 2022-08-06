@@ -1,0 +1,643 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.panel{
+    background-color: #282929;
+    padding: 10px;
+    }
+.a{
+    text-decoration-line: none;
+    color: rgb(233, 62, 0);
+    margin-left: 10%;
+    font-size: 20px;
+        
+}
+
+.b{
+    text-decoration-line: none;
+    color: white;
+    margin-left:60%;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.b:active{
+    color:rgb(233, 62, 0);
+}
+.c{
+    text-decoration-line: none;
+    color: white;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.c:active{
+    color:rgb(233, 62, 0);
+}
+.d{
+    text-decoration-line: none;
+    color: white;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.d:active{
+    color:rgb(233, 62, 0);
+}
+.e{
+    text-decoration-line: none;
+    color: white;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.e:active{
+    color:rgb(233, 62, 0);
+}
+.f{
+    text-decoration-line: none;
+    color: white;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.f:active{
+    color:rgb(233, 62, 0);
+}
+.g{
+    text-decoration-line: none;
+    color: white;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.g:active{
+    color:rgb(233, 62, 0);
+}
+
+.img_paragraph{
+    padding: 130px;
+    background-image: url('Ha.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.img_paragraph { filter: contrast(160%); }
+
+.span_1{
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 20px;
+}
+.span_2{
+    color: white;
+    font-size:25px;
+    display: flex;
+  
+}
+.typing{
+    color:white;
+    font-size:25px;
+    display: flex;
+}
+
+h1{
+    color: rgb(233, 62, 0);
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+    
+}
+.button{
+    background-color:rgb(233, 62, 0);
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.button:active{
+    background-color:rgb(243, 76, 15);
+}
+
+.paragraph_me{
+    padding: 80px;
+    background-color: #282929;
+    
+    
+}
+.div_img{
+    width: 320px;
+    height: 320px;
+    float: left;
+    display: block;
+    border-radius: 100%;
+    border: 2px solid rgb(233, 62, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(/1658683104782.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    cursor: pointer;
+    margin-top: 25px;
+    
+}
+.img_my{
+  width: 100%;
+  height: 100%;
+  
+}
+.aboute{
+    margin-left: 30%;
+    margin-bottom: 100px;
+    text-align: start;
+
+}
+.about{
+    color: white;
+    font-size: 15px;
+    
+}
+
+.who{
+    color: white;
+    font-size: 25px;    
+}
+
+.lorem{
+    color: white;
+}
+.range_html{    
+    -webkit-appearance: none;
+    background-color: #1ee91a;
+    display: block;
+}
+.html{
+    color: orangered;
+}
+.range_css{
+    -webkit-appearance: none;
+    background-color: #1ee91a;
+    margin-top: 15px;
+}
+
+.html_css{
+    width: 550px; 
+    display: block;   
+}
+
+.download_cv{
+    color: white;
+    background-color: rgb(233, 62, 0);
+    border: none;
+    width: 130px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.download_cv:active{
+    background-color: rgb(245, 73, 10);
+}
+
+.paragraph_three{
+    padding: 150px;
+    
+    background-color: #2C2D2D;
+}
+
+.my_services{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+     line-height: 20px;
+     padding-bottom: 10px;
+
+}
+.paragraph_contant{
+    display: flex;
+}
+
+.what{
+    font-size: 25px;
+   color: white;
+   text-align: center;
+   line-height: 20px;
+}
+
+.peen{
+    width: 40px;
+    margin-top: 10px;
+}
+
+
+
+.contant__icon{
+    width: 220px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.flag{
+    width: 30px;
+}
+
+.laptop{
+    width: 40px;
+    margin-top: 10px;
+}
+
+.codding{
+    width: 40px;
+    margin-top: 10px;
+}
+
+.paragraph_to{
+    padding: 200px;
+    background-color: #282929;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contannier{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/facebook.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 50%;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+.instagram{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/instagram.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 50%;
+   cursor: pointer;
+}
+
+.nice{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/nice1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 50%;
+   cursor: pointer;
+}
+
+.nice1{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/nice2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 50%;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+.nice2{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/nice3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-position-x: 50%; */
+   background-position-y: 50%;
+   cursor: pointer;
+}
+
+.nice3{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/nice4.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-position-x: 50%; */
+   background-position-y: 50%;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+.nice4{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/nice5.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-position-x: 50%; */
+   background-position-y: 50%;
+   cursor: pointer;
+}
+
+.signin{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/Sigin.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-position-x: 50%; */
+   background-position-y: 50%;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+
+.dev{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/div.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-position-x: 50%; */
+   background-position-y: 50%;
+   cursor: pointer;
+}
+
+.sevak{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/sevak.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   /* background-position-y: 50%; */
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+
+.music{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/music.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 50%;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+
+.animaton{
+    margin-left: 15px;
+    border: 9px solid;
+    width: 350px;
+    height: 210px;
+    border-color: rgb(233, 62, 0);
+   border-top: none;
+   border-bottom: none;
+   border-radius: 7%;
+   background-image: url(/animation.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 90%;
+   background-position-y: 50%;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+
+.typing{
+    color:  white;
+}
+
+.contannier:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 53%;
+
+}
+.instagram:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 53%;
+    margin-bottom: 20px;
+}
+
+.nice:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 48%;
+    margin-bottom: 20px;
+    background-size: 670px;
+}
+.nice1:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 53%;
+    margin-bottom: 20px;
+}
+
+.nice2:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 10%;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.nice3:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 4%;
+    margin-bottom: 20px;
+}
+
+.nice4:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 32%;
+    margin-bottom: 20px;
+}
+.signin:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 32%;
+    margin-bottom: 20px;
+}
+.dev:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 32%;
+    margin-bottom: 20px;
+}
+.sevak:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 42%;
+    margin-bottom: 20px;
+}
+
+.music:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 52%;
+    margin-bottom: 20px;
+}
+.animaton:hover{
+    width: 460px;
+    height: 300px;
+    background-position-x: 100%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1280px){
+    .aboute{margin-left: 35%;}
+}
+
+@media only screen and (max-width: 1099px){
+    .aboute{margin-left: 40%;}
+    .aboute {flex-wrap: wrap;}
+}
+@media only screen and (max-width: 960px){
+    .div_img{margin-left: -8%;}
+    
+}
+@media only screen and (max-width: 953px){
+    .panel{width: 1000px;}
+    .img_paragraph{width: 1000px;}
+    .paragraph_me{width: 1000px;}
+    .paragraph_three{width: 1000px;}
+    .b{margin-left: 50%;}
+    
+}
+
+@media only screen and (max-width: 550px){
+    .paragraph_three{height: 660px;}
+
+}
+
+@media only screen and (max-width: 511px){
+    .paragraph_three{height: 680px;}
+
+}
+@media only screen and (max-width: 508px){
+    .paragraph_three{height: 700px;}
+
+}
+@media only screen and (max-width: 499px){
+    .paragraph_three{height: 730px;}
+
+}
+@media only screen and (max-width: 485px){
+    .paragraph_three{height: 810px;}
+
+}
+@media only screen and (max-width: 471px){
+    .paragraph_three{height: 840px;}
+
+}
+
+@media only screen and (max-width: 461px){
+    .paragraph_three{height: 870px;}
+
+}
+@media only screen and (max-width: 455px){
+    .paragraph_three{height: 900px;}
+
+}
+@media only screen and (max-width: 449px){
+    .paragraph_three{height: 920px;}
+
+}
+@media only screen and (max-width: 446px){
+    .paragraph_three{height: 950px;}
+
+}
+@media only screen and (max-width: 438px){
+    .paragraph_three{height: 980px;}
+
+}
+
+
+@media only screen and (max-width: 953px){
+.paragraph_to{width: 1000px;}
+
+}
+
+@media only screen and (max-width: 1129px){
+    .contannier{margin-bottom: 20px;}
+   .instagram{margin-bottom: 20px;}
+    .nice{margin-bottom: 20px;}
+    .nice1{margin-bottom: 20px;}
+    .nice2{margin-bottom: 20px;}
+    .nice3{margin-bottom: 20px;}
+    .nice4{margin-bottom: 20px;}
+    .nice5{margin-bottom: 20px;}
+    .dev{margin-bottom: 20px;}
+    .sevak{margin-bottom: 20px;}
+    .music{margin-bottom: 20px;}
+    }
